@@ -1,0 +1,18 @@
+.Form {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40vh;
+  > input {
+    width: 20vw;
+    height: 3vh;
+    margin: 1vh;
+    border-radius: 10px;
+  }
+  button {
+    font-size: 1vw;
+    border-radius: 10px;
+  }
+}
